@@ -1,0 +1,122 @@
+/*****
+* A Peek at a Tweet, 
+* as pulled using the Twitter gem.
+*****/
+
+
+#<Twitter::Tweet:0x007fc46ce4a010 
+  @attrs={
+		:created_at=>"Sun Jul 07 20:15:51 +0000 2013", 
+		:id=>353970638043615234, 
+		:id_str=>"353970638043615234", 
+		:text=>"#Handmade #Brass Tea Canister #Lamp by @ERCubed http://t.co/XfSxvr7Gs5 via @Etsy #TeaTime #CustomLamp #HomeDecor", 
+		:source=>"<a href=\"http://twitter.com/tweetbutton\" rel=\"nofollow\">Tweet Button</a>", 
+		:truncated=>false, 
+		:in_reply_to_status_id=>nil, 
+		:in_reply_to_status_id_str=>nil, 
+		:in_reply_to_user_id=>nil, 
+		:in_reply_to_user_id_str=>nil, 
+		:in_reply_to_screen_name=>nil, 
+		:user=>{
+			:id=>322037363, 
+			:id_str=>"322037363", 
+			:name=>"ERCubed", 
+			:screen_name=>"ERCubed", 
+			:location=>"", 
+			:description=>"Your source for the unique...\r\nHandmade and vintage jewelry, estate flatware, china, and other objets de vertu.", 
+			:url=>"http://t.co/SuBk5zJagv", 
+			:entities=>{
+				:url=>{
+					:urls=>[{
+						:url=>"http://t.co/SuBk5zJagv", 
+						:expanded_url=>"http://www.ercubed.com", 
+						:display_url=>"ercubed.com", 
+						:indices=>[0, 22]
+						}]
+					}, 
+					:description=>{
+						:urls=>[]
+					}
+				}, 
+				:protected=>false, 
+				:followers_count=>25, 
+				:friends_count=>30, 
+				:listed_count=>1, 
+				:created_at=>"Wed Jun 22 14:56:52 +0000 2011", 
+				:favourites_count=>1, 
+				:utc_offset=>nil, 
+				:time_zone=>nil, 
+				:geo_enabled=>false, 
+				:verified=>false, 
+				:statuses_count=>449, 
+				:lang=>"en", 
+				:contributors_enabled=>false, 
+				:is_translator=>false, 
+				:profile_background_color=>"131516", 
+				:profile_background_image_url=>"http://a0.twimg.com/profile_background_images/275672759/bead_background.jpg", 
+				:profile_background_image_url_https=>"https://si0.twimg.com/profile_background_images/275672759/bead_background.jpg", 
+				:profile_background_tile=>true, 
+				:profile_image_url=>"http://a0.twimg.com/profile_images/1408424741/ER3_normal.jpg", 
+				:profile_image_url_https=>"https://si0.twimg.com/profile_images/1408424741/ER3_normal.jpg", 
+				:profile_link_color=>"00B371", 
+				:profile_sidebar_border_color=>"808080", 
+				:profile_sidebar_fill_color=>"EFEFEF", 
+				:profile_text_color=>"333333", 
+				:profile_use_background_image=>true, 
+				:default_profile=>false, 
+				:default_profile_image=>false, 
+				:following=>false, 
+				:follow_request_sent=>false, 
+				:notifications=>false}, 
+				:geo=>nil, 
+				:coordinates=>nil, 
+				:place=>nil, 
+				:contributors=>nil, 
+				:retweet_count=>0, 
+				:favorite_count=>0, 
+				:entities=>{
+					:hashtags=>[{
+						:text=>"Handmade", 
+						:indices=>[0, 9]
+					}, {
+						:text=>"Brass", 
+						:indices=>[10, 16]
+					}, {
+						:text=>"Lamp", 
+						:indices=>[30, 35]
+					}, {
+						:text=>"TeaTime", 
+						:indices=>[81, 89]
+					}, {
+						:text=>"CustomLamp", 
+						:indices=>[90, 101]
+					}, {
+						:text=>"HomeDecor", 
+						:indices=>[102, 112]
+					}], 
+					:symbols=>[], 
+					:urls=>[{
+						:url=>"http://t.co/XfSxvr7Gs5", 
+						:expanded_url=>"http://etsy.me/11t61cp", 
+						:display_url=>"etsy.me/11t61cp", 
+						:indices=>[48, 70]}], 
+						:user_mentions=>[{
+							:screen_name=>"ERCubed", 
+							:name=>"ERCubed", 
+							:id=>322037363, 
+							:id_str=>"322037363", 
+							:indices=>[39, 47]
+						}, {
+							:screen_name=>"Etsy", 
+							:name=>"Etsy", 
+							:id=>11522502, 
+							:id_str=>"11522502", 
+							:indices=>[75, 80]
+						}
+					]}, 
+					:favorited=>false, 
+					:retweeted=>false, 
+					:possibly_sensitive=>false, 
+					:lang=>"sk"}
+					>
+</Twitter::Tweet:0x007fc46ce4a010>
