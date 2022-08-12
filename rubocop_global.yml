@@ -1,0 +1,3 @@
+Style/StringConcatenation:
+  Enabled: true
+  Severity: warning
