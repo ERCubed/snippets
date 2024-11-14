@@ -1,4 +1,4 @@
 # When the mysql2 gem doesn't want to build...
 
 bundle config set --global build.mysql2 --with-mysql-config=$(brew --prefix mysql-client)/bin/mysql_config --with-ldflags="-L$(brew --prefix zstd)/lib -L$(brew --prefix openssl)/lib"
-bundlt install
+bundle install
