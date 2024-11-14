@@ -1,4 +1,8 @@
 # When the mysql2 gem doesn't want to build...
 
-bundle config set --global build.mysql2 --with-mysql-config=$(brew --prefix mysql-client)/bin/mysql_config --with-ldflags="-L$(brew --prefix zstd)/lib -L$(brew --prefix openssl)/lib"
+bundle config set --global build.mysql2 --with-mysql-config=$(brew --prefix mysql-client@8.4)/bin/mysql_config --with-ldflags="-L$(brew --prefix zstd)/lib -L$(brew --prefix openssl)/lib"
 bundle install
+
+# or...
+
+gem install mysql2 -v '0.5.5' -- --with-mysql-lib=/opt/homebrew/Cellar/mysql@8.4/8.4.3_2/lib --with-mysql-dir=/opt/homebrew/Cellar/mysql@8.4/8.4.3_2/ --with-mysql-config=/opt/homebrew/Cellar/mysql@8.4/8.4.3_2/bin/mysql_config --with-mysql-include=/opt/homebrew/Cellar/mysql@8.4/8.4.3_2/include
