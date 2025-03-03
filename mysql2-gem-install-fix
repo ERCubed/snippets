@@ -5,4 +5,4 @@ bundle install
 
 # or...
 
-gem install mysql2 -v '0.5.5' -- --with-mysql-lib=/opt/homebrew/Cellar/mysql@8.4/8.4.3_2/lib --with-mysql-dir=/opt/homebrew/Cellar/mysql@8.4/8.4.3_2/ --with-mysql-config=/opt/homebrew/Cellar/mysql@8.4/8.4.3_2/bin/mysql_config --with-mysql-include=/opt/homebrew/Cellar/mysql@8.4/8.4.3_2/include
+gem install mysql2 -v '0.5.5' -- --with-mysql-lib=/opt/homebrew/Cellar/mysql@8.4/8.4.3_5/lib --with-mysql-dir=/opt/homebrew/Cellar/mysql@8.4/8.4.3_5/ --with-mysql-config=/opt/homebrew/Cellar/mysql@8.4/8.4.3_5/bin/mysql_config --with-mysql-include=/opt/homebrew/Cellar/mysql@8.4/8.4.3_5/include
